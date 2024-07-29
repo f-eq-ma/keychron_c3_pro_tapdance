@@ -1,7 +1,10 @@
 # How I setup KeyChron C3 Pro with QMK for Tap Dance
 
 Thought I would share the full steps on how I resolved my C3 Pro compile issue in QMK.  
-  
+
+Special thanks to ANDY on the Keychron discord server (https://discord.gg/aGKucVyF) for the suggestion on rebasing with upstream master!  
+
+## Pre-Reqs / Warning
 This assumes a fresh setup on Windows 11 in QMK MSYS environment.  
 No guarantee with any of these commands.  It may brick your keyboard.  You have been warned.  
 
