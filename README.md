@@ -118,6 +118,22 @@ Customizations:
   * FN-Scroll Lock -> Volume Up
   * FN-Pause Break -> F14 (remapped in Windows AutoHotKey to iTunes back, i.e. ctl-left arrow)
 
-Better understanding of my Windows AutoHotKey setup, see https://github.com/f-eq-ma/bdn9.   
+Better understanding of my Windows AutoHotKey setup, see https://github.com/f-eq-ma/bdn9.  
 
+## Compile for Tap Dance
+```
+qmk compile --clean -kb keychron/c3_pro/ansi/red -km f-eq-ma
+```
+This will create a binary in the "qmk_firmware" folder called "keychron_c3_pro_ansi_red_f-eq-ma.bin"
+
+## QMK Toolbox to Flash Keyboard
+Open QMK Toolbox application, browse to load the binary firmware file.
+
+With the C3 Pro disconnected, hold down the ESC key, then plug in the keyboard.  This should activate the Flash button on the QMK toolbox.  Flash the keyboard.  Once done, close the QMK toolbox.
+
+## Test the keys
+Open Notepad++ and start tap dancing to make sure the strings you want are displayed.
+
+## Oh Shit, it's bricked....
+Follow the instructions at https://www.keychron.com/blogs/archived/how-to-factory-reset-or-flash-your-qmk-via-enabled-keychron-c3-pro-keyboard  
 
