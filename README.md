@@ -110,7 +110,7 @@ Customizations:
 * Layer 0 (Windows)
   * Tap Dance F7, F8, F9, F11, F12 - Various common strings I hate to type in
   * Tap Dance F10 - 2 taps = string1, 3 taps = string2
-  * Print Screen -> F16 (remapped in Windows HotKey to iTunes pause/play toggle, i.e. ctl-space)
+  * Print Screen -> F16 (remapped in Windows AutoHotKey to iTunes pause/play toggle, i.e. ctl-space)
   * Scroll Lock -> F17 (remapped in Windows AutoHotKey to iTunes mini player toggle, i.e. ctl-shift-M)
   * Pause Break -> F19 (remapped in Windows AutoHotKey to iTunes next, i.e. ctl-right arrow)
 * Layer 1 (Windows Function)
